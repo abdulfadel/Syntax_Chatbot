@@ -34,6 +34,10 @@ client.on('message', message =>{
         client.commands.get('js').execute(message, args, Discord);
     } else if (command === 'website'){
         client.commands.get('website').execute(message, args);
+    } else if (command === 'powerpoint'){
+        client.commands.get('powerpoint').execute(message, args, Discord);
+    } else if (command === 'css'){
+        client.commands.get('css').execute(message, args, Discord);
     }
 });
 
