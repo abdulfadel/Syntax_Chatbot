@@ -38,6 +38,8 @@ client.on('message', message =>{
         client.commands.get('powerpoint').execute(message, args, Discord);
     } else if (command === 'css'){
         client.commands.get('css').execute(message, args, Discord);
+    } else if(command == 'html'){
+        client.commands.get('html').execute(message, args, Discord);
     }
 });
 
