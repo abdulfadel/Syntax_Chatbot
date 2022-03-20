@@ -32,14 +32,21 @@ client.on('message', message =>{
 
     if(command === 'js'){
         client.commands.get('js').execute(message, args, Discord);
-    } else if (command === 'website'){
-        client.commands.get('website').execute(message, args);
+    } else if (command === 'change_me'){//DO NOT CHANGE THIS IS AN EXAMPLE!
+        client.commands.get('change_me').execute(message, args, Discord);//DO NOT CHANGE THIS IS AN EXAMPLE
     } else if (command === 'powerpoint'){
         client.commands.get('powerpoint').execute(message, args, Discord);
     } else if (command === 'css'){
         client.commands.get('css').execute(message, args, Discord);
+<<<<<<< HEAD
+    } else if (command === 'html'){
+        client.commands.get('html').execute(message, args, Discord);
+    } else if (command === 'html_head'){
+        client.commands.get('html_head').execute(message, args, Discord);
+=======
     } else if(command == 'html'){
         client.commands.get('html').execute(message, args, Discord);
+>>>>>>> bc758fffd96432bd4fc8b670312ad401ba8f234d
     }
 });
 
