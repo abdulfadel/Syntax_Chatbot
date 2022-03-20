@@ -38,15 +38,12 @@ client.on('message', message =>{
         client.commands.get('powerpoint').execute(message, args, Discord);
     } else if (command === 'css'){
         client.commands.get('css').execute(message, args, Discord);
-<<<<<<< HEAD
-    } else if (command === 'html'){
-        client.commands.get('html').execute(message, args, Discord);
+    } else if (command === 'example'){
+        client.commands.get('example').execute(message, args, Discord);
     } else if (command === 'html_head'){
         client.commands.get('html_head').execute(message, args, Discord);
-=======
-    } else if(command == 'html'){
-        client.commands.get('html').execute(message, args, Discord);
->>>>>>> bc758fffd96432bd4fc8b670312ad401ba8f234d
+    } else if (command === 'css_syntax'){//DO NOT CHANGE THIS IS AN EXAMPLE!
+        client.commands.get('css_syntax').execute(message, args, Discord);//DO NOT CHANGE THIS IS AN EXAMPLE
     }
 });
 
