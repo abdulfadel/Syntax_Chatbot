@@ -5,8 +5,8 @@ Syntax AI - Call Coding Documentation With Simple Commands
 Syntax AI / Syntax Sparkers                                                                       #
                                                                                                   #
 Objective: Create a list of hard coded commands that can be executed in Discord via prefix.       #
-	   Once all data is collected we will create a neural network using tensorflow.js               #
-	   Bot's purpose is to help scour the internet for coding sources and syntax example            #
+	   Once all data is collected we will create a neural network using tensorflow.js         #
+	   Bot's purpose is to help scour the internet for coding sources and syntax example      #
                                                                                                   #
                                                                                                   #
                                                                                                   #
