@@ -3,7 +3,7 @@ module.exports = {
     description: "What is CSS? .",
     execute(message, args, Discord){ 
         const newEmbed = new Discord.MessageEmbed()
-        .setColor('#CB24F9')
+        .setColor('#03a613')
         .setTitle('CSS Intro | MORE')
         .setURL('https://developer.mozilla.org/en-US/docs/Web/CSS')
         .setDescription('Cascading Style Sheets (CSS) \n is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.')
